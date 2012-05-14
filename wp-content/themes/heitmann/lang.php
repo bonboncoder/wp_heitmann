@@ -1,0 +1,1 @@
+<?php qtrans_generateLanguageSelectCode('text'); ?>

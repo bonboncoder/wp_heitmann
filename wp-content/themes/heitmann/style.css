@@ -1,0 +1,348 @@
+/*
+Theme Name: paheitmann
+Description: Theme Philipp Alfons Heitmann
+Version: 1.0
+Author: coder@bonbonbuero.de
+*/
+
+
+
+/* Begin Typography & Colors */
+root { 
+    display: block;
+}
+
+* {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+a, a:hover, a:visited {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+body {
+    background: #000;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000;
+    font: 14px Courier;
+    line-height: 15px;
+}
+
+h2 {
+   font: bold Courier;
+   text-transform: uppercase;
+}
+
+h3 {
+   text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*
+    Classes
+*/
+
+.attachment-thumbnail {
+    vertical-align: bottom;
+}
+
+.children {
+    margin-left: 20px
+}
+
+#close_ticker {
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    text-align: right;
+    top: 12px;
+}
+
+.courierBold1650 {
+    clear: left;
+    float: left;
+    font: bold 15px Courier;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.current_thumb img {
+    filter:alpha(opacity=40); -moz-opacity: 0.4; opacity: 0.4;
+}
+
+.entry_bold {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.entry_italic {
+    font-style: italic;
+}
+
+#footer {
+    background-color: #ff0;
+    bottom: 0px;
+    position: absolute;
+}
+
+.gallery-icon {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.gallery-item {
+    display: table;
+    height: 100px;
+    margin-right: 12px;
+    margin-top: 12px;
+    padding: 0px;
+    vertical-align: bottom;
+}
+
+#gallery-1 .gallery-item {
+    float: left;
+    text-align: center;
+}
+
+#gallery-1 .gallery-caption {
+    margin-left: 0;
+} 
+
+#imagecontent {
+    padding: 12px 0px;
+    width: 499px;
+}
+
+#imagetitle {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    width: 499px;
+}
+
+.kontakt_entry {
+   font-family: Arial;
+   font-size: 13px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.kontakt_entry a {
+    text-transform: lowercase;
+}
+
+.kontakt_fuss, .kontakt_fuss p {
+    font-family: Courier;
+    font-size: 9px;
+    line-height: 11px;
+}
+
+#lang {
+    background: #FFF;
+    left: 775px;
+    padding: 5px 12px;
+    position: absolute;
+    top: 25px;
+}
+
+#lang a {
+    color: #000;
+    text-transform: lowercase;
+}
+
+#maincontent, #imagecontent, #showreels_content {
+    background: #FFF;
+    left: 250px;
+    position: absolute;
+    top: 75px;
+}
+
+#maincontent, #showreels_content {
+    padding: 12px 12px 25px 12px;
+    width: 475px;
+}
+
+#maincontent a {
+    color: #0000FF;
+    font-family: Courier;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#navi {
+    background: #FFF;
+    font: bold 13px Arial;
+    left: 25px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    list-style: none;
+    padding: 12px 12px 25px 12px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 75px;
+    width: 175px;
+}
+
+#navi a, #navi a:visited, #navi .current_page_item ul li a {
+    color: #000000;
+}
+
+#navi a:hover,
+#navi .current_page_item a,
+#lang .active {
+    color: #66faa2;
+}
+
+.news_entry {
+
+}
+
+.news_entry p strong {
+    font-family: Arial;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.news_entry h6 {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.news_title {
+    font-family: Courier;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;   
+}
+
+#page {
+
+}
+
+.page_item a:hover {
+    color: #66faa2;
+}
+
+.ref_title {
+    float: left;
+    font-family: Courier;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+.sedcard_entry {
+   font-family: Arial;
+   font-size: 13px;
+   letter-spacing: 2px;
+   margin-left: 165px;
+   text-transform: uppercase;
+}
+
+.sedcard_entry a {
+    text-transform: lowercase;
+}
+
+.sedcard_row, .showreel {
+    background-color: #FFF;
+    margin-bottom: 20px; /* ACHTUNG!!! noch ändern für letzten Eintrag*/
+}
+
+.sedcard_title {
+    float: left;
+    font-family: Courier;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#show_image {
+    display: table;
+    font-size: 1px;
+    height: 400px;
+    text-align: center;
+    width: 100%;
+}
+
+#show_image div {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.showreel {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#sidebar {
+    background: #FFF;
+    left: 775px;
+    padding: 12px 12px 25px 12px;
+    position: absolute;
+    top: 75px;
+    width: 212px;
+}
+
+.ticker_entry, .ticker_entry h6 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: lowercase;
+}
+
+.ticker_entry a {
+    text-transform: lowercase;
+}
+
+.ticker_entry p strong {
+    font-family: Arial;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.ticker_head {
+    font-family: Courier;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ticker_sep {
+    margin: 15px 0 15px;
+    text-align: center;
+}
+
+.ticker_sep_last {
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+.ticker_title {
+    font-family: Courier;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: lowercase;
+}
